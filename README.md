@@ -79,23 +79,20 @@ SQL Server Management Studio
 
 Setup Steps
 
-1. Clone the repo:
-git clone https://github.com/yourusername/Bank-Loan-Analysis.git
+
+1. Create DB & Tables using create_db_and_tables.sql
 
 
-2. Create DB & Tables using create_db_and_tables.sql
+2. Import CSV into the SQL table
 
 
-3. Import CSV into the SQL table
+3. Run kpi_queries.sql for KPI generation
 
 
-4. Run kpi_queries.sql for KPI generation
+4. Open the .pbix file in Power BI and connect to your SQL Server
 
 
-5. Open the .pbix file in Power BI and connect to your SQL Server
-
-
-6. Refresh data and explore insights
+5. Refresh data and explore insights
 
 
 
@@ -145,13 +142,6 @@ Review the Grid View for detailed data exports
 Adapt the project for your own datasets or finance domain use cases
 
 
-
----
-
-📬 
-
-
----
 
 --Duration
 
